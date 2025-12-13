@@ -115,5 +115,10 @@ func (c *Config) Initialize(_ context.Context, name string) (*Client, error) {
 	// Apply msgbus defaults
 	c.MsgBus.Name = name
 
+	// Set up slog-based logger (level filtering handled by slog's handler)
+	if c.MsgBus.Logger == nil {
+		c.MsgBus.Logger = NewSlogLogger(nil)
+	}
+
 	return NewClient(*c)
 }
