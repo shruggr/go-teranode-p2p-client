@@ -12,11 +12,6 @@ require (
 replace github.com/bsv-blockchain/teranode => github.com/bsv-blockchain/teranode v0.13.0-beta-3.0.20251211185306-7879a2f59199
 
 require (
-	google.golang.org/genproto/googleapis/api v0.0.0-20250825161204-c5933d9347a5 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250825161204-c5933d9347a5 // indirect
-)
-
-require (
 	github.com/IBM/sarama v1.45.1 // indirect
 	github.com/aerospike/aerospike-client-go/v8 v8.4.2 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
@@ -243,6 +238,8 @@ require (
 	golang.org/x/time v0.14.0 // indirect
 	golang.org/x/tools v0.39.0 // indirect
 	gonum.org/v1/gonum v0.16.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20250825161204-c5933d9347a5 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250825161204-c5933d9347a5 // indirect
 	google.golang.org/grpc v1.75.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.12.0 // indirect
